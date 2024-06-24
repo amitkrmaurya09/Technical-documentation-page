@@ -1,0 +1,49 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+}
+#navbar{
+   
+    background-color: lightblue;
+    width: 230px;
+    height: 100%;
+    position: fixed;
+    padding: 20px;
+    color: black;
+    max-width: 230px;
+}
+.nav-link{
+    display: block;
+    padding: 5px 0;
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    background-color: skyblue;
+    padding-left: 10px;
+}
+#main-doc{
+ margin-left: 290px;
+}
+
+#main-doc header{
+    font-size: 2rem;
+}
+#main-doc p li{
+    font-size: 1.2rem;
+}
+#TD{
+    font-size: 2rem;
+    padding: 7px;
+}
+code{
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 3px solid blue;
+}
+li{
+    margin: 5px 0;
+}
